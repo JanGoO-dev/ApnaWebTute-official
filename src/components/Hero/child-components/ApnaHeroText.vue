@@ -1,6 +1,6 @@
 <template>
   <div
-    class="md:border-l-8 md:pl-8 border-0 pl-0 w-full md:w-2/3 flex flex-col md:justify-start justify-center absolute"
+    class="md:border-l-8 border-apna-dark md:pl-8 border-0 pl-0 w-full md:w-2/3 flex flex-col md:justify-start justify-center absolute"
   >
     <h1 class="sm:text-3xl text-2xl mb-6 md:text-left text-center text-white">
       <span>

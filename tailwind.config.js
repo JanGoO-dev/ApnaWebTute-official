@@ -4,7 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "apna-dark": "#2E3647",
+        "apna": {
+          "dark": "#2E3647",
+          "light": "#363f53"
+        },
       }
     },
   },

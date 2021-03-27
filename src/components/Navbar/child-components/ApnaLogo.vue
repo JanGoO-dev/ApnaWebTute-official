@@ -1,5 +1,5 @@
 <template>
-  <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+  <router-link to="/" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -20,5 +20,5 @@
       <span class="uppercase font-extrabold text-2xl">Apna</span>
       <span class="font-extralight text-md">WebTute</span>
     </span>
-  </a>
+  </router-link>
 </template>
