@@ -2,7 +2,7 @@
   <div
     @mouseover="detectHover(CI)"
     @mouseleave="resetHover()"
-    class="p-12 xl:w-2/3 lg:w-5/6 md:w-full xl:hover:w-full flex flex-col items-start mx-auto rounded-xl border-2 border-gray-600 mb-6 shadow-lg"
+    class="p-12 xl:w-2/3 lg:w-5/6 md:w-full xl:hover:w-full flex flex-col items-start mx-auto rounded-xl border-2 hover:bg-gray-800 border-gray-600 hover:border-transparent transform hover:scale-105 transition duration-300 ease-in-out mb-8 shadow-lg cursor-pointer"
     :class="{ 'shadow-2xl': CI == HI }"
   >
     <span
@@ -10,7 +10,7 @@
       >CATEGORY</span
     >
     <h2
-      class="lg:text-5xl sm:text-4xl text-3xl font-medium text-white mt-4 mb-4 cursor-pointer hover:text-blue-500"
+      class="lg:text-5xl sm:text-4xl text-3xl font-bold text-blue-500 mt-4 mb-4 cursor-pointer hover:text-green-400"
     >
       Roof party normcore before they sold out, cornhole vape
     </h2>
