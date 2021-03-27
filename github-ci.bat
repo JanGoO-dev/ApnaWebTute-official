@@ -22,14 +22,8 @@ pause
 
 cls
 
-npm run build & cls
+npm run build & firebase deploy
 
-@echo of & echo PRODUCTION BUILD SUCCESSFUL
+@echo off & echo PRODUCTION VERSION DEPLOYED SUCCESSFULLY TO FIREBASE HOSTING
 
 pause
-
-cls
-
-@echo off & echo Step 3: DEPLOYING THE PRODUCTION VERSION ON FIREBASE HOSTING
-
-firebase deploy
