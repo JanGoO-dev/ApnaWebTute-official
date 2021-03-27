@@ -5,7 +5,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "push": "git add . & echo off set /p msg='Enter commit message: ' echo on & git commit -m '%msg%' & git push origin master & echo 'Your changes have been successfully pushed to github' & echo 'GitHub Repository: https://github.com/JanGoO-dev/ApnaWebTute-official' & echo 'Commit Message: %msg%'"
+    "push": "git add . & @echo off set /p msg='Enter commit message: ' @echo on & git commit -m '%msg%' & git push origin master & echo 'Your changes have been successfully pushed to github' & echo 'GitHub Repository: https://github.com/JanGoO-dev/ApnaWebTute-official' & echo 'Commit Message: %msg%'"
   },
   "dependencies": {
     "vue": "^3.0.5",
