@@ -22,9 +22,7 @@ pause
 
 cls
 
-npm run build
-
-cls
+npm run build & cls
 
 @echo of & echo PRODUCTION BUILD SUCCESSFUL
 
