@@ -60,6 +60,7 @@ export default {
   opacity: 0;
   width: 60px;
   height: 60px;
+  position: absolute;
   transition: width 0.6s ease, height 0.6s ease, opacity 0.6s ease;
 }
 .g-cursor__circle {
