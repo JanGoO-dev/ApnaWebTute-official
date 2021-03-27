@@ -16,7 +16,7 @@ pause
 
 cls
 
-@echo off & echo Step 2: BUILD THE PROJECT FOR PRODUCTION
+@echo off & echo Step 2: BUILD THE PROJECT FOR PRODUCTION AND DEPLOY IT TO FIREBASE HOSTING
 
 pause
 

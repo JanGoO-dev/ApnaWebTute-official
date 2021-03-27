@@ -5,7 +5,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "push": "explorer github-ci.bat"
+    "magic-script": "call github-ci.bat"
   },
   "dependencies": {
     "vue": "^3.0.5",
