@@ -1,5 +1,5 @@
 <template>
-  Home
+  Post Details Will Show Here...
     <!-- <apna-post /> -->
 </template>
 
