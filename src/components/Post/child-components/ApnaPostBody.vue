@@ -9,11 +9,12 @@
       class="inline-block py-1 px-2 rounded bg-gray-800 text-gray-400 text-opacity-75 text-xs font-medium tracking-widest"
       >CATEGORY</span
     >
-    <h2
+    <router-link
+      to="/post"
       class="lg:text-5xl sm:text-4xl text-3xl font-bold text-blue-500 mt-4 mb-4 cursor-pointer hover:text-green-400"
     >
       Roof party normcore before they sold out, cornhole vape
-    </h2>
+    </router-link>
     <p class="leading-relaxed mb-8 md:text-xl sm:text-lg text-sm text-justify cursor-text">
       Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal
       portland. VHS man braid palo santo hoodie brunch trust fund. Bitters

@@ -19,7 +19,9 @@ export default {
     const router = useRouter();
 
     const availableRoutes = computed(() => {
-      return router.options.routes;
+      return router.options.routes.filter(route => {
+        return route.name != 'Blog Post';
+      });
     });
 
     return { availableRoutes };

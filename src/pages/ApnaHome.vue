@@ -5,7 +5,7 @@
 
 <script>
 import ApnaHero from "../components/Hero/ApnaHero.vue";
-import ApnaPost from "../components/Post/ApnaPost.vue";
+import ApnaPost from "../components/Post/ApnaPostCard.vue";
 
 export default {
   components: { ApnaHero, ApnaPost },
