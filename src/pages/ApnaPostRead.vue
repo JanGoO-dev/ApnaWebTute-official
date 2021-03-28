@@ -1,12 +1,13 @@
 <template>
-    <apna-post />
+  Home
+    <!-- <apna-post /> -->
 </template>
 
 <script>
-import ApnaPost from '../components/Post/ApnaPost.vue'
+// import ApnaPost from '../components/Post/ApnaPost.vue'
 
 
-export default {
-  components: { ApnaPost },
-}
+// export default {
+//   components: { ApnaPost },
+// }
 </script>
